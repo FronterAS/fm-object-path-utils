@@ -1,0 +1,16 @@
+{
+  "name": "fm-object-path-utils",
+  "version": "0.0.1",
+  "description": "Object path value retrieval by string",
+  "authors": [
+    "Gavin King <gavin.king@pearson.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
