@@ -1,6 +1,6 @@
 {
   "name": "fm-object-path-utils",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Object path value retrieval by string",
   "main": "build/fm-object-path-utils.js",
   "scripts": {
