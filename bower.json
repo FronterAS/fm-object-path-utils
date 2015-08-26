@@ -1,6 +1,6 @@
 {
   "name": "fm-object-path-utils",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Object path value retrieval by string",
   "authors": [
     "Gavin King <gavin.king@pearson.com>"

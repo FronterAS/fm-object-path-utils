@@ -1,4 +1,4 @@
-/*! fm-object-path-utils - v0.0.1 - 2015-08-26 */(function (isNode, isAngular) {
+/*! fm-object-path-utils - v0.0.3 - 2015-08-26 */(function (isNode, isAngular) {
 
     'use strict';
 
