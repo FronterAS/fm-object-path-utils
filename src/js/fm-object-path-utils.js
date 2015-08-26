@@ -11,9 +11,7 @@
 
     'use strict';
 
-    var ObjectPathUtils,
-
-        literals = {
+    var literals = {
             'number': Number,
             'string': String
         },
@@ -245,7 +243,14 @@
             var info = getInfo(path, obj);
 
             return info.value;
-        };
+        },
+
+        ObjectPathUtils = function () {};
+
+    ObjectPathUtils.prototype.parse       = parse;
+    ObjectPathUtils.prototype.getInfo     = getInfo;
+    ObjectPathUtils.prototype.getValue    = getValue;
+    ObjectPathUtils.prototype.hasProperty = hasProperty;
 
     if (isAngular) {
         angular.module('fng.utils.object.path', []).service('ObjectPathUtils', ObjectPathUtils);
@@ -257,13 +262,6 @@
         exports.hasProperty = hasProperty;
 
     } else {
-        ObjectPathUtils = function () {};
-
-        ObjectPathUtils.prototype.parse       = parse;
-        ObjectPathUtils.prototype.getInfo     = getInfo;
-        ObjectPathUtils.prototype.getValue    = getValue;
-        ObjectPathUtils.prototype.hasProperty = hasProperty;
-
         window.ObjectPathUtils = new ObjectPathUtils();
     }
 
