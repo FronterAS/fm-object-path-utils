@@ -1,0 +1,19 @@
+{
+  "name": "fm-object-path-utils",
+  "version": "0.0.2",
+  "description": "Object path value retrieval by string",
+  "main": "src/js/fm-object-path-utils.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FronterAS/fm-object-path-utils.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FronterAS/fm-object-path-utils/issues"
+  },
+  "homepage": "https://github.com/FronterAS/fm-object-path-utils#readme"
+}
